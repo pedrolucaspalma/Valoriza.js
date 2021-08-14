@@ -24,6 +24,22 @@ const app = express();
         * Body Params não são usados no método GET   
 */
 
+/*
+* Tipos implementação de Banco de Dados
+    * Driver nativo de banco de dados: MongoDB, MySQL, Postgres
+        * Requer mais conhecimento de SQL
+        * Caso comece a usar um e resolva migrar para outro, dará trabalho
+    * Query Builder: Knex.js
+        * Ainda requer conhecimento de SQL
+        * Facilita migração de banco de dados
+    * ORM: Sequelize, TypeORM, Prisma
+        * Object Relational Map
+        * Frameworks que pegam o código escrito e transformam ele para algo que o banco de dados consiga ler.
+        * É um mapeamento entre a entidade e o objeto
+        * Permite, por exemplo, que uma classe seja reconhecida como uma tabela, e seus atributos como atributos de tabela
+        * Requer menos conhecimento de SQL
+*/
+
 
 app.get("/test", (request, response) => {
     // Request  => Entrando
