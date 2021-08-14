@@ -4,13 +4,24 @@ import express from "express"
 const app = express();
 
 /*
+*Métodos de Rota
+    * GET     => Buscar uma informação
+    * POST    => Inserir (Criar) uma informação
+    * PUT     => Alterar uma informação
+    * DELETE  => Remover uma informação
+    * PATCH   => Alterar uma informação específica
 
-GET     => Buscar uma informação
-POST    => Inserir (Criar) uma informação
-PUT     => Alterar uma informação
-DELETE  => Remover uma informação
-PATCH   => Alterar uma informação específica
+*/
 
+/* 
+* Tipos de parâmetros
+    * Routes params => http://localhost:3000/produtos/23432749823
+    * Query Params  => http://localhost:3000/produtos?name=teclado&description=tecladobom
+    * Body Params   => {
+    *   "name" : "teclado",
+    *   "description" : "teclado bom"
+    * }
+        * Body Params não são usados no método GET   
 */
 
 
