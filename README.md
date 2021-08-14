@@ -5,4 +5,3 @@ It can register multiple users, set one user as an administrator and set multipl
 
 NLW-Valoriza was written using TypeScript for all the logic and ran on Node.js.
 TypeORM
-

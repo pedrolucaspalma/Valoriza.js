@@ -1,0 +1,8 @@
+{
+  "name": "nlw-valoriza",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:pedrolucaspalma/nlw-valoriza.git",
+  "author": "pedrolucaspalma <pedrolucaspalma@gmail.com>",
+  "license": "MIT"
+}
