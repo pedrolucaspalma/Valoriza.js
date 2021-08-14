@@ -1,10 +1,13 @@
-# nlw-valoriza
-A backend application I developed during a bootcamp made by Rocketseat.
+# Valoriza
+This repo is from a personal project I developed during a bootcamp made by Rocketseat.
 
-It can register multiple users, set one user as an administrator and set multiple tags for each users.
+## What it is
 
-NLW-Valoriza was written using TypeScript for all the logic and ran on Node.js.
+It contains an API that can register multiple users, set one user as an administrator and set multiple tags for each users.
 
-Routing was managed by Express.js
+It also contains a database to store all this information.
+
+## What was used
+Valoriza was written using TypeScript for all the logic and ran on Node.js. Additional Frameworks: Express.js
 
 TypeORM
