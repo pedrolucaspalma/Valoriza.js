@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "git@github.com:pedrolucaspalma/nlw-valoriza.git",
   "author": "pedrolucaspalma <pedrolucaspalma@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  }
 }
