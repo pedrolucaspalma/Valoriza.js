@@ -10,4 +10,4 @@ It also contains a database to store all this information.
 ## What was used
 Valoriza was written using TypeScript for all the logic and ran on Node.js. Additional Frameworks: Express.js
 
-TypeORM
+As for the database, i've used TypeORM to code all requests and SQLite as the database driver
