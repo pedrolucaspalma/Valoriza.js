@@ -1,5 +1,5 @@
 # Valoriza
-This repo is from a personal project I developed during a bootcamp made by Rocketseat.
+This repo is from a personal project I developed during an online bootcamp.
 
 ## What it is
 
