@@ -1,4 +1,4 @@
-# Compliment
+# Compliment.js
 This repo is from a personal project I developed during an online bootcamp.
 
 ## What it is
@@ -8,7 +8,7 @@ It contains an API that can register multiple users, set one user as an administ
 It also contains a database to store all this information.
 
 ## What was used
-Compliment was written using TypeScript for all the logic and ran on Node.js. Additional Frameworks: Express.js
+compliment.js was written using TypeScript for all the logic and ran on Node.js. Additional Frameworks: Express.js
 
 As for the database, i've used TypeORM to code all requests and SQLite as the database driver
 
