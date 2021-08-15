@@ -24,9 +24,9 @@ As for the database, i've used TypeORM to code all requests and SQLite as the da
 
 - Tag registration
 
-    [ ] Can't register more than one tag with the same name
-    
     [ ] Can't register a tag without a name
+    
+    [ ] Can't register more than one tag with the same name
     
     [ ] An user who is not an administrator cannot perform registrations
     
