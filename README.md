@@ -17,9 +17,9 @@ As for the database, i've used TypeORM to code all requests and SQLite as the da
 ### Rules
 - User registration
 
-    [ ] Can't register more than one user with the same e-mail address.
+    [ X ] Can't register more than one user with the same e-mail address.
     
-    [ ] Can't register a user if it doesn't have an e-mail
+    [ X ] Can't register a user if it doesn't have an e-mail
     
 
 - Tag registration
