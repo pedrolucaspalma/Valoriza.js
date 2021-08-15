@@ -28,3 +28,4 @@ As for the database, i've used TypeORM to code all requests and SQLite as the da
     [ ] An user cannot register a compliment to itself
     [ ] Cannot registry compliments to invalid users
     [ ] User need to be authenticated in application
+    
