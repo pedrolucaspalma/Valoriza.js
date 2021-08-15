@@ -28,7 +28,7 @@ As for the database, i've used TypeORM to code all requests and SQLite as the da
     
     [ X ] Can't register more than one tag with the same name
     
-    [ ] An user who is not an administrator cannot perform registrations
+    [ X ] An user who is not an administrator cannot perform registrations
     
 
 - Compliment registration
