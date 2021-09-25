@@ -40,15 +40,32 @@ export class CreateCompliments1632569013190 implements MigrationInterface {
                         referencedTableName: "users",
                         referencedColumnNames: ["id"],
                         columnNames: ["user_sender"],
-                        onDelete:"",
-                        onUpdate:""
-                    }
+                        onDelete:"SET NULL",
+                        onUpdate:"SET NULL"
+                    },
+                    {
+                        name: "FKUserReceiverCompliments",
+                        referencedTableName: "users",
+                        referencedColumnNames: ["id"],
+                        columnNames: ["user_receiver"],
+                        onDelete:"SET NULL",
+                        onUpdate:"SET NULL"
+                    },
+                    {
+                        name: "FKTagCompliments",
+                        referencedTableName: "tags",
+                        referencedColumnNames: ["id"],
+                        columnNames: ["tag_id"],
+                        onDelete:"SET NULL",
+                        onUpdate:"SET NULL"
+                    },
                 ]
             })
         )
     }
 
     public async down(queryRunner: QueryRunner): Promise<void> {
+        await queryRunner.dropTable("compliments");
     }
 
 }
