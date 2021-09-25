@@ -3,9 +3,7 @@ This repo is from a personal project I developed during NLW .
 
 ## What it is
 
-It contains an API that can register multiple users, set one user as an administrator and set multiple tags that may be applied as compliments to each user.
-
-It also contains a relational database to store all this information.
+It contains an API that can register multiple users, set one user as an administrator and set multiple tags that may be applied as compliments to each user. It does this by using a relational database to store all this information.
 
 ## What was used
 Valoriza was written using TypeScript for all the logic and ran on Node.js. Additional Frameworks: Express.js
@@ -15,7 +13,7 @@ As for the database, i've used TypeORM to code all requests and SQLite as the da
 ## Production
 
 ### Rules
-- User registration
+- User registration 
 
     [ X ] Can't register more than one user with the same e-mail address.
     
@@ -37,4 +35,3 @@ As for the database, i've used TypeORM to code all requests and SQLite as the da
     [ ] Cannot registry compliments to invalid users
     
     [ ] User need to be authenticated in application
-    
