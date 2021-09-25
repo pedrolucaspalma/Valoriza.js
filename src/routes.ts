@@ -13,6 +13,6 @@ const authenticateUserController = new AuthenticateUserController();
 
 router.post("/users", createUserController.handle);
 router.post("/tags", ensureAdmin, createTagController.handle);
-router.post("/sessions", authenticateUserController.handle);
+router.post("/login", authenticateUserController.handle);
 
 export { router }
