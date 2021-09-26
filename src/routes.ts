@@ -16,6 +16,6 @@ const createComplimentController = new CreateComplimentController();
 router.post("/users", createUserController.handle);
 router.post("/tags", ensureAdmin, createTagController.handle);
 router.post("/login", authenticateUserController.handle); 
-router.post("/compliments"), createComplimentController.handle;
+router.post("/compliments", createComplimentController.handle);
 
 export { router }
