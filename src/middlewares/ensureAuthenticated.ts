@@ -1,6 +1,10 @@
 import { Request, Response, NextFunction } from "express";
 import {verify} from "jsonwebtoken";
 
+interface IPayload{
+    sub: string;
+}
+
 export function ensureAuthenticated(request: Request, response: Response, next: NextFunction){
 
     // recebe request com token
@@ -16,7 +20,7 @@ export function ensureAuthenticated(request: Request, response: Response, next: 
 
     // Faz a verificação. Se não estiver autenticado, erro 401
     try{
-        const {sub} = verify(token ,"a091528c64ea0c4045adcc0b2aad459f");;
+        const {sub} = verify(token ,"a091528c64ea0c4045adcc0b2aad459f") as IPayload;
 
         request.user_id = sub;
 
